@@ -9,6 +9,8 @@
 This is an **advanced** seed project for Angular apps based on [Minko Gechev's](https://github.com/mgechev) [angular-seed](https://github.com/mgechev/angular-seed) that expands on all of its great features to include core support for:
 
 #### Integration with:
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/miltador/unichat.svg)](https://greenkeeper.io/)
 - [ngrx/store](https://github.com/ngrx/store) RxJS powered state management, inspired by **Redux**
 - [ngrx/effects](https://github.com/ngrx/effects) Side effect model for @ngrx/store
 - [ngx-translate](https://github.com/ngx-translate/core) for i18n 
