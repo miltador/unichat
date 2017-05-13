@@ -61,11 +61,10 @@ It's built with a lot of the same structure found here so things work the same b
 
 **Note** you should have **node v6.5.0 or higher** and **npm 3.10.3 or higher**.
 
-* To run the NativeScript app:
+* To run the NativeScript app (currently supports 3.x):
 
 ```
 npm install -g nativescript
-npm install -g typescript
 ```
 
 ## How to start
@@ -284,8 +283,8 @@ A documentation of the provided tools can be found in [tools/README.md](tools/RE
 * how to add a language?
   - `src/client/assets/i18n/`
     - add `[language code].json` (copy existing one and adapt the translation strings)
-  - Create a file similar to the [sample app-config](https://github.com/NathanWalker/angular-seed-advanced/blob/master/src/client/app/shared/sample/services/app-config.ts)
-    - Define your app's `SUPPORTED_LANGUAGES`.
+  - `https://github.com/NathanWalker/angular-seed-advanced/blob/master/src/client/web.module.ts#L98-L101`
+    - Configure `Languages` InjectionToken with array of supported languages
   - `src/client/app/shared/i18n/components/lang-switcher.component.spec.ts`
     - fix test
 
